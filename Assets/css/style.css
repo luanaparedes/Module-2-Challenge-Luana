@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #F5C2B7;
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: black;
     color: #ffffff;
 }
 
@@ -49,158 +49,64 @@ a {
     text-decoration: none;
 }
 
-/* Content font size */
 p {
     font-size: 16px;
-}
- /* Sets img background */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* Content image formatting */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    padding: 25px;
 }
 
 /* Content text styling and box formatting */
-.search-engine-optimization {
+.info {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 200px;
+    width: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: black;
     color: #ffffff;
 }
 
-.online-reputation-management {
+.academics {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 200px;
+    width: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: black;
     color: #ffffff;
 }
 
-.social-media-marketing {
+.project {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 200px;
+    width: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: black;
     color: #ffffff;
-}
-
-/* Content image formatting */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
 }
 
 /* Content heading styling */
-.search-engine-optimization h2 {
+.info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.academics h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.project h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Side bar box formatting */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-/* Side bar text styling */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Side bar header styling */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Side bar image formatting */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Footer text and box formatting */
 .footer {
     padding: 30px;
     clear: both;
@@ -210,30 +116,4 @@ p {
 
 .footer h2 {
     font-size: 20px;
-}
-
-/* Nav stays in place */
-@media screen and (max-width: 1028px) {
-    .header nav {
-        font-size: 18px;
-    }
-}
-
-/* Content and Headings stay in format */
-@media screen and (max-width: 1028px) {
-    p {
-        font-size: 13px;
-    }
-    h2 {
-        font-size: 30px
-    }
-}
-
-/* Images smaller to give text and headings room */
-@media screen and (max-width: 1028px) {
-    .search-engine-optimization img,
-    .online-reputation-management img,
-    .social-media-marketing img {
-        max-height: 175px;
-    }
 }
