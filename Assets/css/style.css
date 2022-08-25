@@ -1,12 +1,94 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
 }
 
 body {
     background-color: #F5C2B7;
 }
+
+#info {
+    position:absolute;
+    top: 190px;
+    right: 1200px;
+}
+
+#moreInfo {
+    visibility: hidden;
+    float: right;
+}
+
+#info:hover ~ #moreInfo {
+    width: 950px;
+    height: 750px;
+    visibility: visible;
+    background-color: black;
+    color: #ffffff;
+    display: box;
+    padding: 20px;
+    margin: 0px;
+    position:absolute;
+    left: 500px;
+}
+
+#academics {
+    position:absolute;
+    top: 400px;
+    right: 1200px;
+}
+
+#moreAcademics {
+    visibility: hidden;
+    float: right;
+}
+
+#academics:hover ~ #moreAcademics {
+    width: 950px;
+    height: 750px;
+    visibility: visible;
+    background-color: black;
+    color: #ffffff;
+    display: box;
+    padding: 20px;
+    margin: 0px;
+    position:absolute;
+    left: 500px;
+}
+
+#project {
+    position:absolute;
+    top: 610px;
+    right: 1200px;
+}
+
+#moreProject {
+    visibility: hidden;
+    float: right;
+}
+
+#project:hover ~ #moreProject {
+    width: 950px;
+    height: 750px;
+    visibility: visible;
+    background-color: black;
+    color: #ffffff;
+    display: box;
+    padding: 20px;
+    margin: 0px;
+    position:absolute;
+    left: 500px;
+}
+
+/* Nav anchor colors */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 
 .header {
     padding: 20px;
@@ -43,18 +125,8 @@ body {
     margin-left: 25px;
 }
 
-/* Nav anchor colors */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .content {
-    width: 75%;
+    width: 96%;
     display: inline-block;
     margin-left: 20px;
     padding: 25px;
@@ -108,6 +180,9 @@ p {
 }
 
 .footer {
+    position:absolute;
+    left:700px;
+    top: 1000px;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
