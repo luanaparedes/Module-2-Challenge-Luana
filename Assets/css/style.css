@@ -8,7 +8,7 @@ body {
 }
 
 #Info {
-    background-color: black;
+    background-color: rgb(17, 16, 16);
     color: #ffffff;
     display: box;
     padding: 20px;
@@ -16,14 +16,12 @@ body {
 }
 
 #Notes {
-    width: 400px;
-    height: 300px;
-    background-color: black;
+    background-color: rgb(17, 16, 16);
     color: #ffffff;
     display: box;
     padding: 20px;
     margin: 15px;
-    display:inline-block;
+    height: 900px;
 }
 
 #Horiseon {
@@ -44,6 +42,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 p {
     font-size: 16px;
 }
@@ -58,8 +60,9 @@ p {
 }
 
 #Notes img {
-    width: 40px;
-    height: 50px;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
 }
 
 #Horiseon img{
@@ -69,28 +72,32 @@ p {
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Garamond, serif;
     background-color: black;
     color: #ffffff;
+    height: 125px;
 }
 
 /* Title styling */
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
 }
+
+.header img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
 
 /* Nav styling and formatting text, list and box */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-family: Garamond, serif;
+    font-size: 25px;
 }
 
 .header nav ul {
@@ -109,14 +116,18 @@ p {
     padding: 25px;
 }
 
+.content h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
 /* Content text styling and box formatting */
 .info {
     margin-bottom: 20px;
     padding: 10px;
     height: 150px;
     width: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
+    font-family: Garamond, serif;
     color: #ffffff;
 }
 
@@ -125,21 +136,17 @@ p {
     padding: 10px;
     height: 150px;
     width: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
+    font-family: Garamond, serif;
+    background-color: rgb(53, 44, 44);
     color: #ffffff;
 }
-
-.header img {
-    border-radius: 50%;
-  }
 
 .horiseon {
     margin-bottom: 20px;
     padding: 10px;
     height: 150px;
     width: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Garamond, serif;
     background-color: black;
     color: #ffffff;
 }
@@ -164,7 +171,7 @@ p {
     display:inline-block;
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Garamond, serif;
     text-align: center;
 }
 
