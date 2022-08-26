@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #F5C2B7;
+}
+
+#Info {
+    background-color: rgb(17, 16, 16);
+    color: #ffffff;
+    display: box;
+    padding: 20px;
+    margin: 15px;
+}
+
+#Notes {
+    background-color: rgb(17, 16, 16);
+    color: #ffffff;
+    display: box;
+    padding: 20px;
+    margin: 15px;
+    height: 900px;
+}
+
+#Horiseon {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    color: #ffffff;
+    display: box;
+    padding: 20px;
+    margin: 15px;
+    display:inline-block;
+}
+
+
+/* Nav anchor colors */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+#footer a {
+    color: black
+}
+
+#Info img {
+    width: 70px;
+    height: 40px;
+}
+
+#Notes img {
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+}
+
+#Horiseon img{
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    padding: 20px;
+    font-family: Garamond, serif;
+    background-color: black;
+    color: #ffffff;
+    height: 125px;
+}
+
+/* Title styling */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+.header img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+
+/* Nav styling and formatting text, list and box */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Garamond, serif;
+    font-size: 25px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.content {
+    width: 96%;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+.content h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Content text styling and box formatting */
+.info {
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    font-family: Garamond, serif;
+    color: #ffffff;
+}
+
+.notes {
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    font-family: Garamond, serif;
+    background-color: rgb(53, 44, 44);
+    color: #ffffff;
+}
+
+.horiseon {
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    font-family: Garamond, serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+/* Content heading styling */
+.info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.notes h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.horiseon h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    display:inline-block;
+    padding: 30px;
+    clear: both;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
