@@ -59,10 +59,29 @@ p {
     height: 40px;
 }
 
+#Notes div {
+    text-align: center;
+    display: inline-block;
+    font-family: Garamond, serif;
+    color: #ffffff;
+}
+
 #Notes img {
-    width: 350px;
-    height: 400px;
-    margin: 10px;
+    width: 250px;
+    height: 300px;
+    margin: 35px;
+    
+}
+
+#Notes img:hover {
+    width: 325px;
+    height: 475px;
+    margin: 5px;
+}
+
+#Notes figcaption {
+    margin: 5px;
+    text-align:center;
 }
 
 #Horiseon img{
