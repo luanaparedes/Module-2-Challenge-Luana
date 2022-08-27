@@ -3,10 +3,29 @@
     padding: 0;
 }
 
+/* set background color */
+
 body {
     background-color: #F5C2B7;
 }
 
+/* anchor color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* anchor underline when hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* paragraph text size */
+p {
+    font-size: 16px;
+}
+
+/* About me box and content styling */
 #Info {
     background-color: rgb(17, 16, 16);
     color: #ffffff;
@@ -15,7 +34,8 @@ body {
     margin: 15px;
 }
 
-#Notes {
+/* */
+#Work {
     background-color: rgb(17, 16, 16);
     color: #ffffff;
     display: box;
@@ -35,23 +55,9 @@ body {
     display:inline-block;
 }
 
-
-/* Nav anchor colors */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-p {
-    font-size: 16px;
-}
-
 #footer a {
-    color: black
+    color: black;
+    font-size: 20px;
 }
 
 #Info img {
@@ -59,34 +65,24 @@ p {
     height: 40px;
 }
 
-#Notes div {
+#Work div {
     text-align: center;
     display: inline-block;
     font-family: Garamond, serif;
     color: #ffffff;
 }
 
-#Notes img {
+#Work img {
     width: 250px;
     height: 300px;
     margin: 35px;
     
 }
 
-#Notes img:hover {
+#Work img:hover {
     width: 325px;
     height: 475px;
     margin: 5px;
-}
-
-#Notes figcaption {
-    margin: 5px;
-    text-align:center;
-}
-
-#Horiseon img{
-    width: 50px;
-    height: 50px;
 }
 
 .header {
@@ -150,44 +146,7 @@ p {
     color: #ffffff;
 }
 
-.notes {
-    margin-bottom: 20px;
-    padding: 10px;
-    height: 150px;
-    width: 300px;
-    font-family: Garamond, serif;
-    background-color: rgb(53, 44, 44);
-    color: #ffffff;
-}
-
-.horiseon {
-    margin-bottom: 20px;
-    padding: 10px;
-    height: 150px;
-    width: 300px;
-    font-family: Garamond, serif;
-    background-color: black;
-    color: #ffffff;
-}
-
-/* Content heading styling */
-.info h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.notes h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.horiseon h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
-    display:inline-block;
     padding: 30px;
     clear: both;
     font-family: Garamond, serif;
@@ -195,5 +154,15 @@ p {
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
+
+.footer li   {
+    list-style: none;
+}
+
+@media screen and (max-width: 1486px) {
+    #Work {
+        height: 1250px;
+    }
+}   
