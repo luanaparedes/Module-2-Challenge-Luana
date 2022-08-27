@@ -34,7 +34,7 @@ p {
     margin: 15px;
 }
 
-/* */
+/* Work section box formatting and styling */
 #Work {
     background-color: rgb(17, 16, 16);
     color: #ffffff;
@@ -44,27 +44,13 @@ p {
     height: 900px;
 }
 
-#Horiseon {
-    width: 400px;
-    height: 300px;
-    background-color: black;
-    color: #ffffff;
-    display: box;
-    padding: 20px;
-    margin: 15px;
-    display:inline-block;
-}
-
+/* footer nav text styling */
 #footer a {
     color: black;
     font-size: 20px;
 }
 
-#Info img {
-    width: 70px;
-    height: 40px;
-}
-
+/* work section text styling, image formatting and imaage hover makes it bigger */
 #Work div {
     text-align: center;
     display: inline-block;
@@ -85,6 +71,7 @@ p {
     margin: 5px;
 }
 
+/* header text styling */
 .header {
     padding: 20px;
     font-family: Garamond, serif;
@@ -100,11 +87,13 @@ p {
     color: #d9dcd6;
 }
 
+/* header size and shape circle */
 .header img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
   }
+
 
 /* Nav styling and formatting text, list and box */
 .header nav {
@@ -124,6 +113,7 @@ p {
     margin-left: 25px;
 }
 
+/* about me section box, about me and heading styling */
 .content {
     width: 96%;
     display: inline-block;
@@ -136,7 +126,6 @@ p {
     font-size: 30px;
 }
 
-/* Content text styling and box formatting */
 .info {
     margin-bottom: 20px;
     padding: 10px;
@@ -146,6 +135,7 @@ p {
     color: #ffffff;
 }
 
+/* footer boz format, header and list styling */
 .footer {
     padding: 30px;
     clear: both;
@@ -161,6 +151,7 @@ p {
     list-style: none;
 }
 
+/* makes page accessible, images fall into box */
 @media screen and (max-width: 1486px) {
     #Work {
         height: 1250px;
