@@ -11,7 +11,7 @@ To install or deploy my portfolio webpage click !
 ## Usage
 
 As mentioned before this webpage is to show my works to future employers. The webpage features images of all on my works and clicking each image takes you to the deployed webpages.
-[webpage image](./Assets/images/webpage-img.png)
+![webpage image](./Assets/images/webpage-img.png)
 
 
 
