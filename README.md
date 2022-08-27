@@ -6,7 +6,7 @@ This webage was the second challenge for Rutgers Bootcamp Module one. Students w
 
 ## Installation
 
-To install or deploy my portfolio webpage click !
+To install or deploy my portfolio webpage click [this link](https://luanaparedes.github.io/Module-2-Challenge-Luana/)!
 
 ## Usage
 
